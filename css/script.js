@@ -19,35 +19,9 @@ if(popup){
     window.addEventListener('load',()=>{
         setTimeout(() => {
             popup.classList.remove('hide-popup');
-        }, 10000);
+        }, 1000);
     })
 }
-// // cart 
-// const cart = document.querySelector('.cart')
-// const cartAdd =document.querySelector('.bx bx-cart')
-
-// cartAdd.addEventListener('click',()=>{
-//     cart.classList.add('cart-active')
-// });
-// btnCart.addEventListener('click',()=>{
-//     cart.classList.remove('cart-active')
-// });
-
-// const cartValue =document.getElementById('cart-value');
-// const productId =document.getElementById('product-id');
-//     productId.addEventListener('click', ()=>{
-//     cartValue.textContent = parseInt(cartValue.textContent) + 1;
-    
-    
-
-// })
-
-
-//  removing from cart
-// const removeProduct = document.querySelector('.removebtn');
-// console.log(removeProduct);
-
-
 // cart section 
 const heartBtn = document.querySelector("#likebtn");
 
