@@ -192,11 +192,8 @@ function changeIncart(action, id){
         return {
             ...item,
             numberOfUnits,
-
-        
         };
     });
     updateCart();
 }
-//  the like btn 
  
