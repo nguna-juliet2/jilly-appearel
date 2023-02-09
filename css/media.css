@@ -93,11 +93,6 @@
         width: 100%;
     }
       /* popoup */
-  
-    /* .right-content p{
-        font-size: 4rem;
-         
-    } */
     .right-content h1{
         font-size: 1.6rem;
          
@@ -109,11 +104,9 @@
         margin-bottom: 1.5rem;
 
     }
-
     /* products */
     .all-products .top select{
         width: 10rem;
-       
     }
 
 }
