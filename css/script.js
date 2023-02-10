@@ -1,4 +1,4 @@
-// import ./data/data.js;
+
 
 const humburger = document.querySelector('.humburger');
 const navList = document.querySelector('.nav-list');
@@ -8,7 +8,6 @@ if (humburger){
         navList.classList.toggle('open');
     })
 }
-
 // popup section
 const popup = document. querySelector('.popup');
 const closePopup = document.querySelector('.popup-close')
